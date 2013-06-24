@@ -1,0 +1,54 @@
+! 用下面的命令重新装载配置
+! xrdb -load ~/.Xresources
+
+!look and feel
+!xterm.termName: xterm-256color
+!xterm.geometry: 80x36
+xterm*scrollBar: false
+xterm*rightScrollBar: true
+xterm*loginshell: true
+xterm*cursorBlink: true
+!xterm*background:  black
+!xterm*foreground:  gray
+xterm.borderLess: true
+xterm.cursorBlink: true
+!xterm*colorUL: yellow
+!xterm*colorBD: white
+
+!fix alt key input 
+xterm*eightBitInput: false
+xterm*altSendsEscape: true
+
+!font and locale
+xterm*locale: true
+xterm.utf8:     true
+xterm*utf8Title: true
+xterm*fontMenu*fontdefault*Label: Default
+xterm*faceName: Envy Code R:antialias=True:pixelsize=16
+xter*boldFont: Envy Code R:antialias=True:style=Bold:pixelsize=16
+xterm*faceNameDoublesize: WenQuanYi Zen Hei Mono:pixelsize=16:antialias=True
+xterm*xftAntialias: true
+xterm*cjkWidth:false
+!<-----谢谢xeoc指正
+
+*background: rgb:20/20/20
+*foreground: rgb:d3/d3/d3
+*color0:     rgb:10/10/10
+*color1:     rgb:cd/5c/5c
+*color2:     rgb:2e/8b/57
+*color3:     rgb:f0/e6/8c
+*color4:     rgb:b0/c4/de
+*color5:     rgb:ba/55/d3
+*color6:     rgb:46/82/b4
+*color7:     rgb:d3/d3/d3
+*color8:     rgb:4d/4d/4d
+*color9:     rgb:ff/6a/6a
+*color10:    rgb:8f/bc/8f
+*color11:    rgb:ff/fa/cd
+*color12:    rgb:1e/90/ff
+*color13:    rgb:db/70/93
+*color14:    rgb:5f/9e/a0
+*color15:    rgb:ff/ff/ff
+
+XTerm*jumpScroll: true
+XTerm*SaveLines: 5000
