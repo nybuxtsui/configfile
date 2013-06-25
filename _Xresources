@@ -31,24 +31,33 @@ xterm*xftAntialias: true
 xterm*cjkWidth:false
 !<-----谢谢xeoc指正
 
-*background: rgb:20/20/20
-*foreground: rgb:d3/d3/d3
-*color0:     rgb:10/10/10
-*color1:     rgb:cd/5c/5c
-*color2:     rgb:2e/8b/57
-*color3:     rgb:f0/e6/8c
-*color4:     rgb:b0/c4/de
-*color5:     rgb:ba/55/d3
-*color6:     rgb:46/82/b4
-*color7:     rgb:d3/d3/d3
-*color8:     rgb:4d/4d/4d
-*color9:     rgb:ff/6a/6a
-*color10:    rgb:8f/bc/8f
-*color11:    rgb:ff/fa/cd
-*color12:    rgb:1e/90/ff
-*color13:    rgb:db/70/93
-*color14:    rgb:5f/9e/a0
-*color15:    rgb:ff/ff/ff
+! jwr low contrast
+*background: #101010
+*foreground: #ffffff
+!black
+*color0: #222222
+*color8: #454545
+!red
+*color1: #9E5641
+*color9: #CC896D
+!green
+*color2: #6C7E55
+*color10: #C4DF90
+!yellow
+*color3: #CAAF2B
+*color11: #FFE080
+!blue
+*color4: #7FB8D8
+*color12: #B8DDEA
+!magenta
+*color5: #956D9D
+*color13: #C18FCB
+!cyan
+*color6: #4c8ea1
+*color14: #6bc1d0
+!white
+*color7: #808080
+*color15: #cdcdcd
 
 XTerm*jumpScroll: true
 XTerm*SaveLines: 5000
