@@ -31,33 +31,36 @@ xterm*xftAntialias: true
 xterm*cjkWidth:false
 !<-----谢谢xeoc指正
 
-! jwr low contrast
+!自己定义了一套颜色
 *background: #101010
 *foreground: #ffffff
+!color
+!dark
+!normal
 !black
-*color0: #222222
-*color8: #454545
+*color0: #101010
+*color8: #4e4e4e
 !red
-*color1: #9E5641
-*color9: #CC896D
+*color1: #ff0000
+*color9: #ff5f00
 !green
-*color2: #6C7E55
-*color10: #C4DF90
+*color2: #005f00
+*color10: #d7ff00
 !yellow
-*color3: #CAAF2B
-*color11: #FFE080
+*color3: #ffff5f
+*color11: #ffff5f
 !blue
-*color4: #7FB8D8
-*color12: #B8DDEA
+*color4: #00afff
+*color12: #d7ffff
 !magenta
-*color5: #956D9D
-*color13: #C18FCB
+*color5: #af00af
+*color13: #ffafff
 !cyan
-*color6: #4c8ea1
-*color14: #6bc1d0
+*color6: #0087af
+*color14: #afffd7
 !white
-*color7: #808080
-*color15: #cdcdcd
+*color7: #d0d0d0
+*color15: #ffffff
 
 XTerm*jumpScroll: true
 XTerm*SaveLines: 5000
