@@ -2,20 +2,16 @@
 ! xrdb -load ~/.Xresources
 
 !look and feel
-!xterm.termName: xterm-256color
+xterm.termName: xterm-256color
 !xterm.geometry: 80x36
 xterm*scrollBar: false
 xterm*rightScrollBar: true
 xterm*loginshell: true
 xterm*cursorBlink: true
-!xterm*background:  black
-!xterm*foreground:  gray
 xterm.borderLess: true
 xterm.cursorBlink: true
-!xterm*colorUL: yellow
-!xterm*colorBD: white
 
-!fix alt key input 
+!fix alt key input
 xterm*eightBitInput: false
 xterm*altSendsEscape: true
 
@@ -29,38 +25,36 @@ xter*boldFont: Envy Code R:antialias=True:style=Bold:pixelsize=16
 xterm*faceNameDoublesize: WenQuanYi Zen Hei Mono:pixelsize=16:antialias=True
 xterm*xftAntialias: true
 xterm*cjkWidth:false
-!<-----谢谢xeoc指正
 
-!自己定义了一套颜色
-*background: #101010
-*foreground: #ffffff
+xterm*background: #101010
+xterm*foreground: #ffffff
 !color
 !dark
 !normal
 !black
-*color0: #101010
-*color8: #4e4e4e
+xterm*color0: #101010
+xterm*color8: #4e4e4e
 !red
-*color1: #ff0000
-*color9: #ff5f00
+xterm*color1: #ff0000
+xterm*color9: #ff5f00
 !green
-*color2: #005f00
-*color10: #d7ff00
+xterm*color2: #005f00
+xterm*color10: #d7ff00
 !yellow
-*color3: #ffff5f
-*color11: #ffff5f
+xterm*color3: #ffff5f
+xterm*color11: #ffff5f
 !blue
-*color4: #00afff
-*color12: #d7ffff
+xterm*color4: #00afff
+xterm*color12: #d7ffff
 !magenta
-*color5: #af00af
-*color13: #ffafff
+xterm*color5: #af00af
+xterm*color13: #ffafff
 !cyan
-*color6: #0087af
-*color14: #afffd7
+xterm*color6: #0087af
+xterm*color14: #afffd7
 !white
-*color7: #d0d0d0
-*color15: #ffffff
+xterm*color7: #d0d0d0
+xterm*color15: #ffffff
 
 XTerm*jumpScroll: true
 XTerm*SaveLines: 5000
