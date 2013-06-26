@@ -20,41 +20,60 @@ xterm*locale: true
 xterm.utf8:     true
 xterm*utf8Title: true
 xterm*fontMenu*fontdefault*Label: Default
-xterm*faceName: Envy Code R:antialias=True:pixelsize=16
-xter*boldFont: Envy Code R:antialias=True:style=Bold:pixelsize=16
-xterm*faceNameDoublesize: WenQuanYi Zen Hei Mono:pixelsize=16:antialias=True
+xterm*faceName: Envy Code R:antialias=True:pixelsize=18
+xter*boldFont: Envy Code R:antialias=True:style=Bold:pixelsize=18
+xterm*faceNameDoublesize: WenQuanYi Zen Hei Mono:pixelsize=18:antialias=True
 xterm*xftAntialias: true
 xterm*cjkWidth:false
 
-xterm*background: #080808
+xterm*background: #000000
 xterm*foreground: #ffffff
+
+! tango color scheme
+xterm*color0:   #2E3436
+xterm*color1:   #CC0000
+xterm*color2:   #4E9A06
+xterm*color3:   #C4A000
+xterm*color4:   #3465A4
+xterm*color5:   #75507B
+xterm*color6:   #06989A
+xterm*color7:   #D3D7CF
+xterm*color8:   #555753
+xterm*color9:   #EF2929
+xterm*color10:  #8AE234
+xterm*color11:  #FCE94F
+xterm*color12:  #729FCF
+xterm*color13:  #AD7FA8
+xterm*color14:  #34E2E2
+xterm*color15:  #EEEEEC
+
 !color
 !dark
 !normal
 !black
-xterm*color0: #101010
-xterm*color8: #4e4e4e
-!red
-xterm*color1: #ff0000
-xterm*color9: #ff5f00
-!green
-xterm*color2: #005f00
-xterm*color10: #d7ff00
-!yellow
-xterm*color3: #ffff5f
-xterm*color11: #ffff5f
-!blue
-xterm*color4: #00afff
-xterm*color12: #60a7ff
-!magenta
-xterm*color5: #af00af
-xterm*color13: #ffafff
-!cyan
-xterm*color6: #0087af
-xterm*color14: #afffd7
-!white
-xterm*color7: #d0d0d0
-xterm*color15: #ffffff
+!xterm*color0: #101010
+!xterm*color8: #4e4e4e
+!!red
+!xterm*color1: #ff0000
+!xterm*color9: #ff5f00
+!!green
+!xterm*color2: #005f00
+!xterm*color10: #d7ff00
+!!yellow
+!xterm*color3: #ffff5f
+!xterm*color11: #ffff5f
+!!blue
+!xterm*color4: #00afff
+!xterm*color12: #60a7ff
+!!magenta
+!xterm*color5: #af00af
+!xterm*color13: #ffafff
+!!cyan
+!xterm*color6: #0087af
+!xterm*color14: #afffd7
+!!white
+!xterm*color7: #d0d0d0
+!xterm*color15: #ffffff
 
 XTerm*jumpScroll: true
 XTerm*SaveLines: 5000
