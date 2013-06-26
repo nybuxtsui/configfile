@@ -26,7 +26,7 @@ xterm*faceNameDoublesize: WenQuanYi Zen Hei Mono:pixelsize=16:antialias=True
 xterm*xftAntialias: true
 xterm*cjkWidth:false
 
-xterm*background: #101010
+xterm*background: #080808
 xterm*foreground: #ffffff
 !color
 !dark
@@ -45,7 +45,7 @@ xterm*color3: #ffff5f
 xterm*color11: #ffff5f
 !blue
 xterm*color4: #00afff
-xterm*color12: #d7ffff
+xterm*color12: #60a7ff
 !magenta
 xterm*color5: #af00af
 xterm*color13: #ffafff
